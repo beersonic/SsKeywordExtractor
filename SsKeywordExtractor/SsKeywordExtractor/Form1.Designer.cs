@@ -66,6 +66,7 @@
             // 
             this.richTextBoxKeyword.Location = new System.Drawing.Point(15, 262);
             this.richTextBoxKeyword.Name = "richTextBoxKeyword";
+            this.richTextBoxKeyword.ReadOnly = true;
             this.richTextBoxKeyword.Size = new System.Drawing.Size(455, 122);
             this.richTextBoxKeyword.TabIndex = 2;
             this.richTextBoxKeyword.Text = "";
@@ -136,6 +137,7 @@
             // 
             this.richTextBoxTitle.Location = new System.Drawing.Point(16, 187);
             this.richTextBoxTitle.Name = "richTextBoxTitle";
+            this.richTextBoxTitle.ReadOnly = true;
             this.richTextBoxTitle.Size = new System.Drawing.Size(455, 42);
             this.richTextBoxTitle.TabIndex = 9;
             this.richTextBoxTitle.Text = "";
