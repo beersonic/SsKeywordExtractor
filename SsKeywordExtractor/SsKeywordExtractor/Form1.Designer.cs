@@ -51,6 +51,7 @@
             this.textBoxURL.Name = "textBoxURL";
             this.textBoxURL.Size = new System.Drawing.Size(411, 20);
             this.textBoxURL.TabIndex = 0;
+            this.textBoxURL.Click += new System.EventHandler(this.textBoxURL_Click);
             this.textBoxURL.TextChanged += new System.EventHandler(this.textBoxURL_TextChanged);
             // 
             // label1

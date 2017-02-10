@@ -47,12 +47,11 @@ namespace SsKeywordExtractor
         private void textBoxURL_TextChanged(object sender, EventArgs e)
         {
             string url = textBoxURL.Text;
-            if (url == "")
+            if (url != "")
             {
                 richTextBoxKeyword.Clear();
-            }
-            else
-            {
+                richTextBoxTitle.Clear();
+
                 lock (m_urlToBeProcessed)
                 {
                     m_urlToBeProcessed = url;
@@ -192,6 +191,12 @@ namespace SsKeywordExtractor
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             m_isDone = true;
+        }
+
+        private void textBoxURL_Click(object sender, EventArgs e)
+        {
+            textBoxURL.SelectionStart = 0;
+            textBoxURL.SelectionLength = textBoxURL.Text.Length;
         }
     }
 }
