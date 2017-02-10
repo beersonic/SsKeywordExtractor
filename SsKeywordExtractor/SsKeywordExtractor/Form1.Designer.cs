@@ -85,7 +85,7 @@
             this.textBoxRegexKeyword.Name = "textBoxRegexKeyword";
             this.textBoxRegexKeyword.Size = new System.Drawing.Size(371, 20);
             this.textBoxRegexKeyword.TabIndex = 4;
-            this.textBoxRegexKeyword.Text = "<a href=\\\"\\/search\\/.+\\\">(.+)<\\/a>";
+            this.textBoxRegexKeyword.Text = "<a href=\\\"\\/search\\/.+class=\"pull-left.+btn-search-pill\\\">(.+)<\\/a>";
             this.textBoxRegexKeyword.TextChanged += new System.EventHandler(this.textBoxRegex_TextChanged);
             // 
             // backgroundWorker1
